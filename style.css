@@ -42,6 +42,22 @@ body {
     color: black;
 }
 
+h2 {
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+
+span {
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+p {
+    font-size: 18px;
+}
+
 .section_6,
 .section_5,
 .section_4,
@@ -77,23 +93,9 @@ body {
     padding: 15px 60px;
     position: absolute;
     margin-top: 4px;
+    border-radius: 10px;
 }
 
-h2 {
-    font-size: 40px;
-    margin-top: 0;
-    margin-bottom: 15px;
-    font-weight: 500;
-}
-
-span {
-    font-size: 40px;
-    font-weight: bolder;
-}
-
-p {
-    font-size: 18px;
-}
 
 .form {
     padding: 0 5%;
@@ -290,4 +292,11 @@ nav ul li a {
     font-weight: lighter;
     text-align: center;
     color: gray;
+}
+
+.top_content .top_btn a:hover,
+.div_40 .btn_2 a:hover,
+a:hover {
+    background-color: #d49f91;
+    transition: 0.5s;
 }
