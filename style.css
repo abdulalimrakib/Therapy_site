@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans+Condensed:wght@200&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans+Condensed:wght@200&family=Varela+Round&display=swap');
+
+
+body {
+    margin: 0;
+    font-family: 'Varela Round', sans-serif;
+    /* font-family: 'Ubuntu', sans-serif; */
+}
+
+.top_section {
+    height: 650px;
+    background-image: url("img/top_bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 4%;
+}
+
+.top_content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.top_content h1 {
+    font-size: -webkit-xxx-large;
+    margin: 30px auto;
+}
+
+.top_content .top_btn {
+    display: flex;
+    justify-content: center;
+}
+
+.top_content .top_btn a {
+    background-color: aliceblue;
+    padding: 10px 30px;
+    text-decoration: none;
+    border-radius: 10px;
+    color: black;
+}
+
+.section_6,
+.section_5,
+.section_4,
+.section_3,
+.section_2 {
+    display: flex;
+    justify-content: center;
+    padding: 4% 0;
+    height: 650px;
+}
+
+.div_40 {
+    width: 40%;
+    padding: 0 1%;
+}
+
+.div_40 img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.section_2 .div_40 p {
+    font-size: 18px;
+    font-weight: lighter;
+    font-size: 18px;
+}
+
+.div_40 .btn_2 a {
+    text-decoration: none;
+    color: rgb(249, 251, 251);
+    background-color: #fd8d8d;
+    padding: 15px 60px;
+    position: absolute;
+    margin-top: 4px;
+}
+
+h2 {
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+
+span {
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+p {
+    font-size: 18px;
+}
+
+.form {
+    padding: 0 5%;
+}
+
+.form h2 {
+    text-align: center;
+}
+
+.form h3 {
+    text-align: center;
+}
+
+.img_3 {
+    height: 555px;
+    padding: 15% 5% 0 5%;
+}
+
+input {
+    width: 100%;
+    line-height: 50px;
+    border-radius: 10px;
+    margin: 4px 0;
+    font-size: 20px;
+    background-color: #c7fefde2;
+}
+
+.submit {
+    display: flex;
+    justify-content: center;
+    margin: 3% 0 0 0;
+}
+
+#submit {
+    width: 50%;
+    background-color: #6fe7e5e2;
+    cursor: pointer;
+}
+
+.section_4 .conteiner {
+    width: 80%;
+}
+
+.conteiner .text_sec_4 h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.conteiner .text_sec_4 p {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.col {
+    width: 100%;
+    height: 100%;
+    padding: 4%;
+    object-fit: cover;
+}
+
+.col img {
+    width: 100%;
+    height: 70%;
+    border-radius: 50%;
+}
+
+.conteiner .img_sec_4 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 425px;
+}
+
+.conteiner .img_sec_4 .sec_4_img {
+    width: 25%;
+}
+
+.conteiner .btn_sec_4 {
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+.section_6 .btn_sec_6 a,
+.conteiner .btn_sec_4 a {
+    text-decoration: none;
+    padding: 10px 50px;
+    border: 5px solid black;
+    border-radius: 10px;
+    color: black;
+}
+
+.section_6 .col_l,
+.section_5 .col_l {
+    width: 50%;
+}
+
+.section_6 .col_r,
+.section_5 .col_r {
+    width: 50%;
+}
+
+.section_5 .col_l img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.section_5 .col_r {
+    text-align: center;
+    padding: 10% 5% 0 5%;
+    line-height: 30px;
+}
+
+.section_6 .col_l {
+    text-align: center;
+    padding: 5% 5% 0 5%;
+    line-height: 30px;
+}
+
+.section_6 .col_r img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.section_6 .btn_sec_6 {
+    display: flex;
+    justify-content: center;
+    margin-top: 12%;
+}
+
+.section_3,
+.section_5 {
+    background-color: #f7e4d2;
+}
+
+.title_section {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    line-height: 300px;
+    background-color: #f3e8de;
+}
+
+
+.title {
+    letter-spacing: 10px;
+    font-size: -webkit-xxx-large;
+}
+
+.row {
+    display: flex;
+}
+
+.logo {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 40px;
+}
+
+nav {
+    width: 75%;
+    margin: 10px 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: right;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #f3e8de;
+    border-radius: 15px;
+}
+
+.bord {
+    border: 2px solid black;
+}
+
+.copy_r p {
+    font-size: 14px;
+    font-weight: lighter;
+    text-align: center;
+    color: gray;
+}
