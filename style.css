@@ -58,6 +58,7 @@ span {
 
 p {
     font-size: 16px;
+    text-align: justify;
 }
 
 .section_6,
@@ -86,6 +87,10 @@ p {
     font-size: 18px;
     font-weight: lighter;
     font-size: 18px;
+}
+
+.div_40 .btn_2 {
+    margin: 25px 0;
 }
 
 .div_40 .btn_2 a {
@@ -117,13 +122,13 @@ p {
 }
 
 input {
-    width: 100%;
+    width: 95%;
     line-height: 50px;
     border-radius: 10px;
     margin: 4px 0;
     font-size: 20px;
     background-color: #c7fefde2;
-    padding-left: 10px;
+    padding-inline-start: 15px;
     border: none;
 }
 
@@ -140,7 +145,7 @@ input {
 }
 
 .section_4 .conteiner {
-    width: 80%;
+    width: 90%;
 }
 
 .conteiner .text_sec_4 h2 {
@@ -159,6 +164,11 @@ input {
     height: 100%;
     padding: 4%;
     object-fit: cover;
+}
+
+.col p {
+    text-align: center;
+    padding: 25px 0;
 }
 
 .col img {
@@ -426,6 +436,21 @@ a:hover {
 
 @media screen and (max-width: 670px) {
 
+    p {
+        font-size: 14px;
+        text-align: justify;
+        padding: 15px;
+    }
+
+    .top_section {
+        height: 400px;
+        background-image: url(img/top_bg.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        margin-bottom: 4%;
+    }
+
     ul {
         display: block;
         list-style-type: disc;
@@ -480,14 +505,24 @@ a:hover {
         text-align: center;
     }
 
+    .div_40 .btn_2 {
+        margin: 25px 0;
+    }
+
+
     .div_40 .btn_2 a {
         text-decoration: none;
         color: rgb(249, 251, 251);
         background-color: #fd8d8d;
-        padding: 10px 40px;
+        padding: 6px 20px;
         position: static;
-        margin-top: 4px;
         border-radius: 10px;
+    }
+
+    .form h3 {
+        text-align: center;
+        padding: 25px 0;
+        font-weight: 100;
     }
 
     .section_4 .conteiner {
@@ -495,10 +530,11 @@ a:hover {
     }
 
     .conteiner .img_sec_4 {
+        margin-top: 25px;
         display: flex;
         justify-content: center;
         text-align: center;
-        height: 240px;
+        height: 180px;
     }
 
     .col {
@@ -507,6 +543,21 @@ a:hover {
         padding: 0;
         margin: 5px;
         object-fit: cover;
+    }
+
+    .col img {
+        width: 80%;
+        height: 50%;
+        border-radius: 50%;
+    }
+
+    .col p {
+        text-align: center;
+    }
+
+    .img_3 {
+        height: 350px;
+        padding: 15% 5% 0 5%;
     }
 
     .section_6 .btn_sec_6 a,
@@ -518,12 +569,14 @@ a:hover {
         color: black;
     }
 
-    .section_6 .col_l,
+    .section_6 .col_r,
     .section_5 .col_l {
+        margin-top: 25px;
         width: 100%;
+        height: 350px;
     }
 
-    .section_6 .col_r,
+    .section_6 .col_l,
     .section_5 .col_r {
         width: 100%;
     }
